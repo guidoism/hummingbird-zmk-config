@@ -104,9 +104,10 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-                &kp X     &kp C     &kp L     &kp F     &kp P       &kp K     &kp Y     &kp O     &kp U     &kp QUOT
-                &kp R     &kp S     &kp N     &kp T     &kp B       &kp J     &kp H     &kp E     &kp I     &kp A
-                          &kp W     &kp M     &kp G                           &kp D     &kp COMMA &kp DOT
+ 
+                &kp Q     &kp W     &kp E     &kp R     &kp T       &kp Y     &kp U     &kp I     &kp O     &kp P
+                &kp A     &kp S     &kp D     &kp F     &kp G       &kp H     &kp J     &kp K     &kp L     &kp :
+                          &kp X     &kp C     &kp V                           &kp M     &kp DOT   &kp FSLH
                                     &sl NAV_L &kp SPACE             &sk LSHFT &sl SYM_L
             >;
         };
@@ -114,8 +115,8 @@
             label = "Nav";
             bindings = <
                 &kp F1    &kp F2    &kp F3    &kp F4    &kp F5      &kp PG_UP &kp ESC   &kp UARW  &kp TAB   &kp HOME
-                &kp LGUI  &kp LALT  &kp LSHFT &kp LCTRL &kp UNDO    &kp PG_DN &kp LARW  &kp ENTER &kp RARW  &kp END
-                          &kp CUT   &kp COPY  &kp PASTE                       &kp BSPC  &kp DARW  &kp DEL
+                &kp LGUI  &kp LALT  &kp LSHFT &kp LCTRL &kp UNDO    &kp PG_DN &kp LARW  &kp DARW &kp RARW  &kp ENTER
+                          &kp CUT   &kp COPY  &kp PASTE                       &kp BSPC  &kp END  &kp DEL
                                               &trans    &trans      &trans    &trans
             >;
         };
