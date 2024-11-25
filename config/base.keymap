@@ -117,9 +117,9 @@
         nav_layer {
             label = "Nav";
             bindings = <
-                &kp F1    &kp F2    &kp F3    &kp F4    &kp F5      &kp PG_UP &kp ESC   &kp UARW  &kp TAB   &kp HOME
-                &kp LGUI  &kp LALT  &kp LSHFT &kp LCTRL &kp UNDO    &kp PG_DN &kp LARW  &kp DARW &kp RARW  &kp ENTER
-                          &kp CUT   &kp COPY  &kp PASTE                       &kp BSPC  &kp END  &kp DEL
+                &kp F1    &kp F2    &kp F3    &kp F4    &kp F5       &kp ESC   &kp PG_UP &kp UARW  &kp PG_DN &kp TAB   
+                &kp LGUI  &kp LALT  &kp LSHFT &kp LCTRL &kp UNDO     &kp BSPC  &kp LARW  &kp DARW  &kp RARW  &kp ENTER
+                          &kp CUT   &kp COPY  &kp PASTE                        &kp HOME  &kp DEL   &kp END   
                                               &trans    &trans      &trans    &trans
             >;
         };
